@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "iM-PROVE PDF Generator",
+  "version": "1.0.0",
+  "description": "Genera PDFs de ensayos PAES desde resultados de iM-PROVE.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://acceso-improve.santillana.cl/*",
+    "https://s3.amazonaws.com/*",
+    "https://pleno.s3.amazonaws.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Generar PDFs iM-PROVE"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://acceso-improve.santillana.cl/pruebas/resultado/*"],
+      "js": ["pdf-renderer.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/periodic-table.jpg"],
+      "matches": ["https://acceso-improve.santillana.cl/*"]
+    }
+  ]
+}
