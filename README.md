@@ -7,17 +7,13 @@ Con esta extension puedes generar:
 - El solucionario del ensayo.
 - El ensayo original sin soluciones.
 
-No necesitas usar Python ni pegar codigo en la consola.
-
 ## 1. Descargar el proyecto desde GitHub
 
 Haz clic en este enlace para descargar el proyecto como archivo ZIP:
 
 ```text
-https://github.com/USUARIO/NOMBRE-DEL-REPOSITORIO/archive/refs/heads/main.zip
+https://github.com/santiagollll/Ensayos-iM-Prove/archive/refs/heads/main.zip
 ```
-
-Ese link es un ejemplo. Debe ser reemplazado por el link real del repositorio.
 
 ## 2. Extraer el archivo ZIP
 
