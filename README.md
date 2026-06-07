@@ -86,8 +86,8 @@ Revisa estas cosas:
 - La pagina debe ser una pagina de resultados de iM-PROVE.
 - La URL debe comenzar con `https://acceso-improve.santillana.cl/pruebas/resultado/`.
 - La pagina debe haber cargado completamente.
-- La extension debe estar activada en [chrome://extensions](chrome://extensions).
-- Si acabas de actualizar la extension, presiona el boton de recargar en [chrome://extensions](chrome://extensions).
+- La extension debe estar activada en `chrome://extensions`.
+- Si acabas de actualizar la extension, presiona el boton de recargar en `chrome://extensions`.
 
 ## 6. Descargar el JSON opcional
 
