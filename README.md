@@ -11,9 +11,9 @@ Con esta extension puedes generar:
 
 Haz clic en este enlace para descargar el proyecto como archivo ZIP:
 
-```text
+
 [Descargar Zip](https://github.com/santiagollll/Ensayos-iM-Prove/archive/refs/heads/main.zip)
-```
+
 
 ## 2. Extraer el archivo ZIP
 
